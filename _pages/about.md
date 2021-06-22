@@ -19,7 +19,7 @@ My PhD works towards a) demonstrating that this interface is a *glass* and b) ex
 # Research
 I am currently working on:
 * Creep and glassy dynamics in an experimental sandpile
-* Phenomenology of relaxating and rejuvenated earthflows
+* Phenomenology of relaxing and rejuvenated earthflows
 * Formation and collapse of colloidal gels 
 * Structure, dynamics, and rheology of logjams
 
