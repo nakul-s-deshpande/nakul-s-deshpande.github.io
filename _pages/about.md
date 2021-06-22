@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a scientist enamoured by landscapes. 
+I am a scientist enamoured with landscapes. 
 
 My work sits at the intersection of geophysics, geomorphology, and soft-matter/granular physics.
 I am currently a PhD Candidate at the University of Pennsylvania working with [Doug Jerolmack](https://earth.sas.upenn.edu/people/douglas-j-jerolmack). 
