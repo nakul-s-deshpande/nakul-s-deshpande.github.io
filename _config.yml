@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Nakul Deshpande"
 title_separator          : "-"
 name                     : &name "Nakul Deshpande"
-description              : &description "PhD candidate at UPenn"
+description              : &description "postdoc at LANL"
 url                      : https://nakul-s-deshpande.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : " nakul-s-deshpande/nakul-s-deshpande.github.io "
@@ -83,11 +83,11 @@ author:
   name             : "Nakul Deshpande"
   avatar           : "profile.png"
   bio              : "landscapes at the intersection of geo.soft.granular physics"
-  location         : "Philadelphia, PA"
+  location         : "Taos, NM"
   employer         : 
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?hl=en&user=iy_PdWoAAAAJ"
-  email            : "nakuld@sas.upenn.edu"
+  email            : "nakul.s.deshpande@gmail.com"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
@@ -109,7 +109,7 @@ author:
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          : "nakulsdeshpande"
+  twitter          : 
   vine             :
   weibo            :
   xing             :
