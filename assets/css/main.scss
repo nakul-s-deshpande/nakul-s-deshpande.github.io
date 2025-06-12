@@ -23,3 +23,20 @@ $max-content-width: {{ site.max_width }};
   "tabler-icons/tabler-icons-filled.scss",
   "tabler-icons/tabler-icons-outline.scss"
 ;
+
+
+
+@font-face {
+  font-family: 'Latin Modern Math';
+  src: url('/assets/fonts/latinmodern-math.woff2') format('woff2'),
+       url('/assets/fonts/latinmodern-math.woff') format('woff'),
+       url('/assets/fonts/latinmodern-math.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap; /* Important for performance */
+}
+
+body {
+  font-family: 'Latin Modern Math', serif;
+}
+/* Apply to other elements as desired */
