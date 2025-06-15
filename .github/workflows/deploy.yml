@@ -94,6 +94,7 @@ jobs:
           pip3 install --upgrade nbconvert
           export JEKYLL_ENV=production
           bundle exec jekyll build
+          echo "Build finished and ready for artifact upload." # <-- Add this line
       - name: Purge unused CSS 🧹
         run: |
           npm install -g purgecss
