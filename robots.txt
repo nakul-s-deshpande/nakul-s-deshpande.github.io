@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://nakul-s-deshpande.github.io/al-folio/sitemap.xml
