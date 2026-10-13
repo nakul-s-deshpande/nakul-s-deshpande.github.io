@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="300" viewBox="0 0 400 300">
+<defs><pattern id="h" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="8" stroke="#b9b2a0" stroke-width="2"/></pattern></defs>
+<rect width="400" height="300" fill="#e8e4d8"/><rect width="400" height="300" fill="url(#h)"/>
+<rect x="60" y="125" width="280" height="50" fill="#e8e4d8" stroke="#555"/>
+<text x="200" y="146" font-family="Times, serif" font-size="15" text-anchor="middle" fill="#222">FIG. 1</text>
+<text x="200" y="164" font-family="Times, serif" font-size="13" font-style="italic" text-anchor="middle" fill="#444">field site: creeping hillslope</text>
+</svg>
