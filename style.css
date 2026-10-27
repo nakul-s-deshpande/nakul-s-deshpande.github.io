@@ -63,7 +63,7 @@ table.figures img {
 table.figures small { display: block; margin-top: 4px; }
 
 /* Centered block, left-aligned entries: a centered bibliography is unreadable */
-ol.papers {
+ol.papers, ul.papers {
   display: inline-block;
   text-align: left;
   margin: 0 auto;
@@ -115,3 +115,73 @@ address { font-style: normal; }
   }
   table.figures td { margin-bottom: 6px; }
 }
+
+/* Essay-style About: centered block, left-aligned text, like the bibliography */
+.essay { max-width: 600px; margin: 0 auto; text-align: left; }
+.essay h3 { font-size: 1.1em; margin: 1.6em 0 0.4em; }
+.essay ul { padding-left: 1.2em; }
+.essay li { margin-bottom: 0.4em; }
+sup a { text-decoration: none; }
+ol.footnotes { font-size: 0.85em; margin-top: 2em; padding-left: 1.4em; }
+ol.footnotes a[aria-label] { text-decoration: none; }
+
+/* Updates: dated, newest first */
+ul.updates { display: inline-block; text-align: left; list-style: none; padding: 0; margin: 0 auto; }
+ul.updates li { margin-bottom: 0.4em; }
+ul.updates .date { font-family: "LM Mono", "Courier New", monospace; font-size: 16px; margin-right: 0.6em; }
+
+/* ---- Prototype: the minimal look. Same content and fonts; the kitsch
+   hides, everything goes left-aligned and quiet. Toggled by /proto.js
+   via <html data-look>. Pick one look and delete the other before merging. ---- */
+[data-look="minimal"] .kitsch,
+[data-look="minimal"] .nav .br { display: none; }
+[data-look="minimal"] body {
+  max-width: 640px;
+  background: #fdfdfb;
+  text-align: left;
+  line-height: 1.6;
+}
+[data-look="minimal"] h1,
+[data-look="minimal"] h2,
+[data-look="minimal"] h3 { font-weight: normal; }
+[data-look="minimal"] a,
+[data-look="minimal"] a:visited {
+  color: inherit;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.15em;
+  text-decoration-color: #aaa;
+}
+[data-look="minimal"] a:hover { text-decoration-color: currentColor; }
+[data-look="minimal"] hr { border: 0; border-top: 1px solid #ddd; width: 100%; margin: 2em 0; }
+[data-look="minimal"] table.figures { border: 0; border-spacing: 0; background: none; }
+[data-look="minimal"] table.figures td { border: 0; background: none; padding: 0 12px 16px 0; }
+[data-look="minimal"] table.figures small { line-height: 1.4; }
+[data-look="minimal"] ol.papers, [data-look="minimal"] ul.papers { display: block; background: none; border: 0; padding: 0 0 0 1.4em; }
+[data-look="minimal"] ul.updates { display: block; }
+[data-look="minimal"] .essay { max-width: none; }
+[data-look="minimal"] img.portrait { border: 0; }
+
+/* Prototype switch bar */
+.proto-bar {
+  position: fixed;
+  right: 12px;
+  bottom: 12px;
+  z-index: 10;
+  padding: 4px;
+  background: #fff;
+  border: 1px solid #000;
+  font: 13px/1 "LM Mono", "Courier New", monospace;
+  text-align: left;
+}
+.proto-bar button { font: inherit; padding: 4px 8px; border: 0; background: none; color: #000; cursor: pointer; }
+.proto-bar button[aria-pressed="true"] { background: #000; color: #fff; }
+ul.papers { list-style: none; padding-left: 16px; }
+[data-look="minimal"] ul.papers { padding-left: 0; }
+p.titles { font-size: 0.9em; }
+ol.footnotes { max-width: 600px; margin-left: auto; margin-right: auto; text-align: left; }
+[data-look="minimal"] ol.footnotes { max-width: none; }
+.nav a { white-space: nowrap; }
+/* Two-figure rows keep the same image size as three-figure rows */
+table.figures.two { width: 67%; margin: 0 auto; }
+[data-look="minimal"] table.figures.two { margin: 0; }
+@media (max-width: 600px) { table.figures.two { width: auto; } }
