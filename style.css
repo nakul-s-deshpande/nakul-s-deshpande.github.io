@@ -63,11 +63,6 @@ sup a { text-decoration: none; }
 ol.footnotes { font-size: 0.85em; margin-top: 2em; padding-left: 1.4em; }
 ol.footnotes a[aria-label] { text-decoration: none; }
 
-/* Dated lists (talks, updates), newest first */
-ul.updates { list-style: none; padding: 0; }
-ul.updates .date { font-family: "LM Mono", "Courier New", monospace; font-size: 16px; margin-right: 0.6em; }
-p.titles { font-size: 0.9em; }
-
 address { font-style: normal; }
 
 /* Phones: stack the figures */
