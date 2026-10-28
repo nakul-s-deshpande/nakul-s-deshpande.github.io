@@ -1,4 +1,4 @@
-/* Quiet and plain: one column, left-aligned, Latin Modern throughout.
+/* Quiet and plain: a wide frame, left-aligned, Latin Modern throughout.
    The earlier "circa 1997" look is kept in git as the tag archive/quaint. */
 
 /* Latin Modern: the TeX font. Latin Modern Math's upright letters are the
@@ -10,7 +10,7 @@
 @font-face { font-family: "LM Mono"; src: url("fonts/lmmono10-regular.woff2") format("woff2"); }
 
 body {
-  max-width: 640px;
+  max-width: 960px;
   margin: 24px auto;
   padding: 0 16px;
   background: #fdfdfb;
@@ -19,6 +19,9 @@ body {
   font-size: 19px;
   line-height: 1.6;
 }
+
+/* Text keeps a readable measure (~70 characters); figures and rules use the full frame */
+body > :not(table.figures):not(hr) { max-width: 640px; }
 
 a, a:visited {
   color: inherit;
